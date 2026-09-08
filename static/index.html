@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>LeadForge — Google Maps Lead Generation</title>
+<link rel="stylesheet" href="/static/css/app.css"/>
+</head>
+<body>
+<div class="layout">
+  <aside class="sidebar" id="sidebar">
+    <div class="brand"><span class="brand-mark">◈</span> LeadForge</div>
+    <nav>
+      <a href="#/new" data-nav="new">＋ New Job</a>
+      <a href="#/jobs" data-nav="jobs">▤ Job History</a>
+      <a href="#/results" data-nav="results">◎ Results</a>
+      <a href="#/status" data-nav="status">⚙ System Status</a>
+    </nav>
+    <div class="sidebar-foot" id="providerBadge"></div>
+  </aside>
+  <div class="main">
+    <header class="topbar">
+      <button id="hamburger" aria-label="menu">☰</button>
+      <h1 id="pageTitle">New Job</h1>
+    </header>
+    <main id="view" class="view"></main>
+  </div>
+</div>
+<div class="overlay" id="overlay"></div>
+<script src="/static/js/app.js"></script>
+</body>
+</html>
